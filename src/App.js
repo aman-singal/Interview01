@@ -6,11 +6,17 @@ import Card from './components/Card'
 import BigCard from './components/BigCard';
 import SimpleSlider from './components/Slider'
 import CardHeader from './components/CardHeader';
-
+import {Phone , Cursor } from 'react-bootstrap-icons'
+ 
 function App() {
   return (
     <div className="App">
-      Bigbasket
+      <span style={{marginLeft: '950px' , display: 'inline-'}}>
+       <Phone /> 1860 123 1000  
+      </span>
+      <span style={{marginLeft: '50px'}}>
+      <Cursor />  Andheri West Mumbai
+      </span>
       <NavBar />
       <div style={{marginTop: '30px'}}>
       <CorouselMain />
