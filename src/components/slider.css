@@ -1,0 +1,27 @@
+
+.owl-prevButton {
+    height: 35px;
+    position: absolute;
+    top: 45%;
+    width: 25px;
+    right: 99%;
+    background: white;
+    border: none;
+    padding: 0 !important;
+    font: inherit; 
+    border-radius: 0px;
+}
+.owl-nextButton{
+    height: 35px;
+    position: absolute;
+    top: 45%;
+    width: 25px;
+    left: 99%;
+    background: white;
+    border: none;
+    padding: 0 !important;
+    font: inherit; 
+    border-radius: 0px;
+}
+
+   
