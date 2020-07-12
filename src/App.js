@@ -7,6 +7,7 @@ import BigCard from './components/BigCard';
 import SimpleSlider from './components/Slider'
 import CardHeader from './components/CardHeader';
 import {Phone , Cursor } from 'react-bootstrap-icons'
+import AboutBB from './components/AboutBB';
  
 function App() {
   return (
@@ -31,10 +32,13 @@ function App() {
       <ButtonReact type="secondary" text="Deals of the Week" />
       </div>
 
+      <div style={{marginTop: '80px'}}>
       <SimpleSlider ImageArray={["https://www.bigbasket.com/media/uploads/banner_images/T1_All_Health_Safety_DT_6_1130x400_25thJune.jpg",
   "https://www.bigbasket.com/media/uploads/banner_images/All_Home-Kitchen-Essentials_DT_3_1130x400_11thJuly.jpg",
   "https://www.bigbasket.com/media/uploads/banner_images/2007024_organic-store_400.jpg",
   "https://www.bigbasket.com/media/uploads/banner_images/T1_All_BabyCare_DT_4_1130x400_25thJune.jpg"]} />
+      </div>
+      
     
       <Card headerText="Bank Offers" ImageArray={["https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/4ec5c320-719c-4c16-bbb4-5dc4be672239/113d146d-8bf2-47f0-ad76-b05492f99195/All_ICICINet_DT_1_480x360_6thJuly.jpg"
       , "https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/4ec5c320-719c-4c16-bbb4-5dc4be672239/113d146d-8bf2-47f0-ad76-b05492f99195/All_Paytm_DT_2_480x360_6thJuly.jpg",
@@ -88,10 +92,13 @@ function App() {
    "https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/4ec5c320-719c-4c16-bbb4-5dc4be672239/ff15da39-2806-41f5-bfbf-c7676835ac10/T1_All_OralCare_DT_3_275x184_11thJuly.jpg",
    "https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/4ec5c320-719c-4c16-bbb4-5dc4be672239/ff15da39-2806-41f5-bfbf-c7676835ac10/T1_All_Feminine_Hygiene_DT_5_275x184_25thJune.jpg" ]} />
    
-    <SimpleSlider ImageArray={["https://www.bigbasket.com/media/uploads/banner_images/All_PetStore_DT_3_1130x400_25thJune.jpg",
+   <div style={{marginTop: '80px'}}>
+   <SimpleSlider  ImageArray={["https://www.bigbasket.com/media/uploads/banner_images/All_PetStore_DT_3_1130x400_25thJune.jpg",
   "https://www.bigbasket.com/media/uploads/banner_images/2007067_icecreams-frozen_400.jpg",
   "https://www.bigbasket.com/media/uploads/banner_images/All_Bakery_DT_2_1130x400_25thJune.jpg",
   "https://www.bigbasket.com/media/uploads/banner_images/All_Bakery_DT_2_1130x400_25thJune.jpg",]} />
+   </div>
+    
   
     <Card headerText="Brand Store" ImageArray={["https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/4ec5c320-719c-4c16-bbb4-5dc4be672239/184b1bdd-a281-4e26-ac41-0abe82d75e00/All_Amul_480x360_26thJune.jpg",
   "https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/4ec5c320-719c-4c16-bbb4-5dc4be672239/184b1bdd-a281-4e26-ac41-0abe82d75e00/All_Dettol_480x360_26thJune.jpg",
@@ -103,12 +110,17 @@ function App() {
     <div style={{justifyContent: 'center' , alignItems: 'center', marginTop: '80px' , display: 'flex'}}>
       <div style={{width: '1160px' , margin: '0px' }}>
       <CardHeader headerText="Featured Recipes" />
-      <SimpleSlider ImageArray={["https://www.bigbasket.com/media/uploads/banner_images/NNP3101-1130x400-9thjuly.jpg",
+      <SimpleSlider  ImageArray={["https://www.bigbasket.com/media/uploads/banner_images/NNP3101-1130x400-9thjuly.jpg",
   "https://www.bigbasket.com/media/uploads/banner_images/NNP3099-1130x400-9thjuly.jpg",
   "https://www.bigbasket.com/media/uploads/banner_images/NNP3100-1130x400-9thjuly.jpg",
   "https://www.bigbasket.com/media/uploads/banner_images/NNP3099-1130x400-9thjuly.jpg"]} />
       </div>
     </div >
+
+
+    <AboutBB />
+
+
     </div>
   );
 }

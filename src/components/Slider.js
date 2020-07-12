@@ -7,7 +7,7 @@ import "./slider.css";
 
 function Slider({ImageArray}) {
   return (
-    <div style={{display: 'flex' , justifyContent: 'center' , alignItems: 'center' , marginTop: '80px'}}>
+    <div style={{display: 'flex' , justifyContent: 'center' , alignItems: 'center'}}>
         <div style={{width: "1160px" , height: "411.91px"}}>
       <OwlCarousel
     className="owl-theme"
