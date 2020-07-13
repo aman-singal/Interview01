@@ -8,7 +8,9 @@ import SimpleSlider from './components/Slider'
 import CardHeader from './components/CardHeader';
 import {Phone , Cursor } from 'react-bootstrap-icons'
 import AboutBB from './components/AboutBB';
- 
+import SecondaryF from './SecondaryF';
+import Footer from './Footer'
+
 function App() {
   return (
     <div className="App">
@@ -119,8 +121,8 @@ function App() {
 
 
     <AboutBB />
-
-
+    <SecondaryF />
+    <Footer />
     </div>
   );
 }
